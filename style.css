@@ -52,32 +52,30 @@ li {
 /* 设置轮播图背景 */
 
 .slide:nth-child(1){
-  background: url("img/slide1.jpeg") no-repeat center center/cover;
+  background: url("img/slide01.png") no-repeat center center/cover;
 }
 
 .slide:nth-child(2) {
-  background: url("img/slide2.jpeg") no-repeat center center/cover;
+  background: url("img/slide02.png") no-repeat center center/cover;
 }
 
 .slide:nth-child(3) {
-  background: url("img/slide3.png") no-repeat center center/cover;
+  background: url("img/slide03.png") no-repeat center center/cover;
 }
 
 .slide:nth-child(4) {
-  background: url("img/slide4.png") no-repeat center center/cover;
+  background: url("img/slide04.png") no-repeat center center/cover;
 }
 
 .slide:nth-child(5) {
-  background: url("img/slide5.jpg") no-repeat center center/cover;
+  background: url("img/slide05.png") no-repeat center center/cover;
 }
 
 .slide:nth-child(6) {
-  background: url("img/slide6.jpg") no-repeat center center/cover;
+  background: url("img/slide06.png") no-repeat center center/cover;
 }
 
-.slide:nth-child(7) {
-  background: url("img/slide7.jpeg") no-repeat center center/cover;
-}
+
 
 /* 设置按钮样式 */
 
@@ -114,8 +112,8 @@ li {
   position: absolute;
   bottom: 5vh;
   width: 100vw;
-  height: 20vh;
-  background-color: rgba(51, 51, 51, 0.4);
+  height: 15vh;
+  background-color: rgba(51, 51, 51, 0.185);
 }
 
 .miniPic ul {
@@ -132,30 +130,30 @@ li {
 
 /* 设置缩略图背景 */
 .picture:nth-child(1){
-  background: url("img/slide1.jpeg")no-repeat center center/cover;
+  background: url("img/slide01.png")no-repeat center center/cover;
 }
 
 .picture:nth-child(2) {
-  background: url("img/slide2.jpeg") no-repeat center center/cover;
+  background: url("img/slide02.png") no-repeat center center/cover;
 }
 
 .picture:nth-child(2) {
-  background: url("img/slide3.png") no-repeat center center/cover;
+  background: url("img/slide03.png") no-repeat center center/cover;
 }
 
 .picture:nth-child(4) {
-  background: url("img/slide4.png") no-repeat center center/cover;
+  background: url("img/slide04.png") no-repeat center center/cover;
 }
 
 .picture:nth-child(5) {
-  background: url("img/slide5.jpg") no-repeat center center/cover;
+  background: url("img/slide05.png") no-repeat center center/cover;
 }
 
 .picture:nth-child(6) {
-  background: url("img/slide6.jpg") no-repeat center center/cover;
+  background: url("img/slide06.png") no-repeat center center/cover;
 }
 
 .picture.currentPicture {
   /* 当前选中的透明度为百分之五十 */
-  opacity: 0.5;
+  opacity: 0.3;
 }
